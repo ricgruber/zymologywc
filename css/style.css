@@ -698,7 +698,7 @@ font-family: 'Oswald', sans-serif;
 html {
 width: 100%;
 height: 100%;
-overflow-x: relative;
+overflow-x: none;
 }
 
 a, a:hover, a:active, a:focus {
