@@ -691,6 +691,7 @@ padding:4;
 
 body {
 width: 100%;
+min-width: 100%;
 height: 100%;
 font-family: 'Oswald', sans-serif;
 }
@@ -853,7 +854,7 @@ color:#767380;
 font-family:'moonshinerround_oblique', sans-serif;
 }
 .team-group {
-margin:0 25px 0;
+/*margin:0 25px 0;*/
 }
 .social-team {
 text-align:left;
@@ -1256,6 +1257,7 @@ margin:0 0 45px;
 letter-spacing:2.5px;
 background:transparent;
 border:none;
+line-height: 15px;
 }
 
 input[type="email"] {
@@ -1268,6 +1270,7 @@ letter-spacing:2.5px;
 background:transparent;
 border:none;
 text-transform:uppercase;
+line-height: 15px;
 }
 
 input[type="submit"] {
@@ -1394,7 +1397,7 @@ color:#fff;
 
 .pricing-sections {
 height:auto;
-padding:200px 0;
+padding:175px 0;
 text-align: center;
 display: table;
 width:100%;
@@ -1596,6 +1599,10 @@ top:27px;
 
 @media all and (max-width: 765px) {
   .mobiled{ display: none; margin-bottom: -160px}
+  .team-group p {
+  	text-align: justify;
+  }
+
 }
 
 @media all and (min-width: 760px) {
@@ -1610,3 +1617,8 @@ top:27px;
 	max-width: 766px;
 }
 
+
+.row {
+	width:100%;
+	margin:0 auto;
+}
