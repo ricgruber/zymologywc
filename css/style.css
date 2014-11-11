@@ -1601,6 +1601,7 @@ top:27px;
   .mobiled{ display: none; margin-bottom: -160px}
   .team-group p {
   	text-align: justify;
+  	padding: 10px 0;
   }
 
 }
